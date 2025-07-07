@@ -58,6 +58,18 @@ img {
   border-radius: 8px;
 }
 
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.half-img {
+  max-width: 48%;
+  height: auto;
+}
+
 .cta-button {
   display: inline-block;
   padding: 0.75rem 1.5rem;
